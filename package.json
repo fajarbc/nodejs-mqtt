@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-mqtt",
+  "version": "0.1.0",
+  "description": "nodejs mqtt example",
+  "main": "broker.js",
+  "scripts": {
+    "start": "node broker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajarbc/nodejs-mqtt.git"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "Fajar BC <mail@fajarbc.com> (https://github.com/fajarbc)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fajarbc/nodejs-mqtt/issues"
+  },
+  "homepage": "https://github.com/fajarbc/nodejs-mqtt#readme",
+  "dependencies": {
+    "mosca": "^0.6.0",
+    "mqtt": "^4.3.7"
+  }
+}
